@@ -1,1 +1,0 @@
-console.log("Hi, This is my JavaScript Journey.")
