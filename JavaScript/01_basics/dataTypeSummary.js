@@ -58,3 +58,29 @@ console.log(typeof anotherId);//symbol
        Number = number
 
 */
+
+
+/*
+++++++++++++++++++++++++++++++++ Memorory in JavaScript +++++++++++++++++
+
+
+Stack(Primitive), Heap (Non-Primitive)
+ example:
+*/
+let myName = "Rajan Raj"
+let anotherName = myName
+console.log(anotherName);
+anotherName = "Rajan Kumar Rai"
+console.log(anotherName);
+console.log(myName);
+
+let userOne= {
+    email: "Rajan.cse@outlook.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "Rajan.software.developer@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
