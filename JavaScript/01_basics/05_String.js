@@ -14,6 +14,7 @@ console.log(gameName.toUpperCase);
 console.log(gameName.charAt(3));
 console.log(gameName.indexOf("a"));
 
+
 const newString = gameName.substring(0,3) // can not use negative if use it will 
 console.log(newString);   // Ignore and starts from 0.
 
@@ -31,5 +32,8 @@ console.log(url.replace('%20','_'));
 console.log(url.includes('rajan'));
 console.log(gameName.split(' '));
 // read String functions on the mdn Web for more !!!! important.W
+
+console.log(gameName.anchor('https://www.google.com'));
+
 
 
