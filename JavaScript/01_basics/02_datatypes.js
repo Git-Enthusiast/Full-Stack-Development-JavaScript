@@ -21,8 +21,8 @@
     // symbol => unique
     // object 
 
-    console.log(typeof"rajan raj")
+    console.log(typeof"rajan raj") // string
     console.log(typeof null)  // object
-    console.log(age)
+    console.log(typeof age)  // number
     console.log(typeof undefined); // undefined
     
