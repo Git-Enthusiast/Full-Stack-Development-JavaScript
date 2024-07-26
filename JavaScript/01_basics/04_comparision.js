@@ -30,7 +30,7 @@ console.log(undefined < 0);
 // console.log(3===2);// check datatypes as well as value both should be equal.
 // console.log(3==="3"); // false
 // console.log(2===2); // true
-// console.log(2==2); // false
+// console.log(2==2); // true
 
 
 
