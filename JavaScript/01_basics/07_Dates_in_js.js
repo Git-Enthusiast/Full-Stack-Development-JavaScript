@@ -11,7 +11,7 @@ let myDate = new Date()
 // console.log(typeof myDate);// Object
 
 let myCreatedDate = new Date(2024,2,30) // In javaScript dates starts from 0 - jan,1 - feb
-// console.log(myCreatedDate.toDateString());
+// console.log(myCreatedDate.toDateString()); //Sat Mar 30 2024
 // console.log(myCreatedDate.toLocaleTimeString()); //  12:00:00 am
 // if no time is mentioned and we print the time then the time will be starts from 
 // 12 Am.
