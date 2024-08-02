@@ -38,8 +38,3 @@ console.log(newDate.getDate()); // e.g., 2 (current date)
 console.log(newDate.getMonth() + 1); // e.g., 8 (current month, zero-based index + 1)
 
 console.log(newDate.toLocaleString('default', { weekday: "long" })); // e.g., "Friday"
-
-
-
-
-
