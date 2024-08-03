@@ -109,3 +109,4 @@ JsUser.greetingTwo = function(){
 console.log(JsUser.greetingTwo());
 // Hello Js User This is Rajan Raj
 // undefined
+console.log(JsUser);
