@@ -54,7 +54,17 @@ console.log(typeof JsUser.age);
 console.log(typeof JsUser.location);
 console.log(typeof JsUser.email);
 console.log(typeof JsUser["Full Name"]);
-console.log(typeof JsUser[mySym]);
+console.log(typeof JsUser[mySym]); // string
+/*
+When accessing the value associated with the Symbol key, 
+JsUser[mySym] returns the value "Key1", which is a string. 
+Therefore, typeof JsUser[mySym] returns "string".
+
+So, the value assigned to the Symbol key ("Key1") is a string, 
+which explains why typeof JsUser[mySym] returns "string". 
+The typeof operator checks the type of the value stored in 
+the property, not the key itself.
+*/
 console.log(typeof JsUser.isLoggedIn);
 console.log(typeof JsUser.lastLoginDays);
 
