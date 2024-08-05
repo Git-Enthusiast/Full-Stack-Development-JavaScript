@@ -76,6 +76,12 @@ const users = [
         email:"Messachuate@gmail.com"
     }
 ]
+console.log(users);
+// [
+//     { id: '1', email: 'rajan.cse@outlook.com' },
+//     { id: '2', email: 'Messachuate@gmail.com' }
+//   ]
+
 console.log(users[1].email);
 // Messachuate@gmail.com
 
