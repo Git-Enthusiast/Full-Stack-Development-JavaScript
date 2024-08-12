@@ -53,14 +53,15 @@ const obj4 = {
 // in this format first all the concate object is copied to the empty array and array is 
 // assigned to the obj3.
 // Here {} => is Target , obj1,obj2,obj4 => is source.
-// const obj3 = Object.assign({},obj1,obj2,obj4)
+// const obj3 = Object.assign({},obj1,obj2,obj4) // the empty paranthesis means we assign all the 
+// valuses to the empty array which act as  target.
 // console.log(obj3);
 // // { '1': 'a', '2': 'b', '3': 'a', '4': 'b', '5': 'a', '6': 'b' }
 // console.log(obj1);
 // // { '1': 'a', '2': 'b' }
 
 // better way to concate by using "spread Operator"
-const obj3 = {...obj1,...obj2,...obj4}
+const obj3 = {...obj1,...obj2,...obj4} // most of the time we use.
 console.log(obj3);
 // { '1': 'a', '2': 'b', '3': 'a', '4': 'b', '5': 'a', '6': 'b' }
 
